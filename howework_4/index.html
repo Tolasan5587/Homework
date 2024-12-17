@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation Menu</title>
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- FontAwesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <!-- Brand Logo -->
+      <div class="navbar-brand">
+        <a href="#">
+          <img src="images/logo.png" alt="Phoenix Logo" />
+          <span>Phoenix</span>
+        </a>
+      </div>
+
+      <!-- Navigation Links -->
+      <ul class="navbar-nav">
+        <li class="navbar-item">
+          <a href="#" class="nav-link">
+            <i class="fa-solid fa-house"></i>
+            Home</a
+          >
+        </li>
+        <li class="dropdown">
+          <a href="#" class="nav-link">
+            <i class="fa-brands fa-uncharted"></i>
+            Apps</a
+          >
+          <ul class="dropdown-menu">
+            <li class="triangle"></li>
+            <li class="hidden"></li>
+            <li class="submenu">
+              <a href="#">E-commerce &rsaquo;</a>
+              <ul class="submenu-items">
+                <li><a href="#">Admin</a></li>
+                <li><a href="#">Customer</a></li>
+              </ul>
+            </li>
+            <li><a href="#">CRM</a></li>
+            <li><a href="#">Project Management</a></li>
+            <li><a href="#">Chat</a></li>
+            <li><a href="#">Email</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Kanban</a></li>
+            <li><a href="#">Social</a></li>
+            <li><a href="#">Calendar</a></li>
+          </ul>
+        </li>
+        <li class="navbar-item">
+          <a href="#" class="nav-link">
+            <i class="fa-solid fa-pager"></i>
+            Pages</a
+          >
+        </li>
+        <li class="navbar-item">
+          <a href="#" class="nav-link">
+            <i class="fa-brands fa-ubuntu"></i>
+            Modules</a
+          >
+        </li>
+        <li class="navbar-item">
+          <a href="#" class="nav-link">
+            <i class="fa-solid fa-file-invoice"></i>
+            Documentation</a
+          >
+        </li>
+      </ul>
+
+      <!-- Profile Section -->
+      <div class="nav-profile">
+        <ul class="navbar-item">
+          <li>
+            <a href="#" class="nav-link">
+              <i class="fa-solid fa-sun"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link">
+              <i class="fa-regular fa-bell"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link">
+              <img src="images/Håkon-Wium-Lie.jpg" alt="User Profile Picture" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </body>
+</html>
